@@ -4,7 +4,7 @@ pizzas = ["cheese", "pepperoni", "doublecheese"]
 friend_pizzas = pizzas [ : ]
 print(pizzas)
 print(friend_pizzas)
-
+print('###########################')
 #### Add a new pizza to the original list
 pizzas.append("triplecheese")
 print(pizzas)
@@ -19,6 +19,6 @@ print(friend_pizzas)
 # stored in the appropriate list.
 for pizza in pizzas:
     print(f"My favorite pizzas are: {pizza}")
-print("")####????
+print("################")
 for friend_pizza in friend_pizzas:
     print(f"My friend's favorite pizzas are: {friend_pizza}")

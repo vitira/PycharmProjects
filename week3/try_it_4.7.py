@@ -1,3 +1,5 @@
 #4.7 Threes: Make a list of the multiples of 3 from 3 to 30. Use for a loop to print the numbers in your list.
+mult = []
 for number in range (3, 31, 3):
-    print(number)
+    mult.append(number)
+print(mult)
