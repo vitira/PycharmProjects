@@ -6,3 +6,9 @@ def display_message():
     print('I learn functoin in this chapter')
 
 display_message()
+
+def display_message2():
+    print('I learn second time functoin in this chapter')
+
+display_message2()
+display_message()

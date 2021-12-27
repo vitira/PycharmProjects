@@ -17,8 +17,7 @@ favorite_languages = {
 
 people =['lena', 'polina', 'vasa', 'phil', 'jen']
 for name in favorite_languages:
-    print("")
-    #print(name.title())
+
     if name in people:
        print(f"{name.title()} thank you for responding")
     else:
