@@ -1,7 +1,7 @@
 #from vebelement_alert import *
-from webelement_class import *
+from test_webelement_class import *
 
-driver=webdriver.Chrome(executable_path='../../drivers/chromedriver 2')
+driver=webdriver.Chrome()
 driver.implicitly_wait(10)
 driver.maximize_window()
 
