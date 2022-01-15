@@ -6,6 +6,7 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 
 email="my_cool_email@gmail.com"
+###
 
 #test_alert_one_button()
 #test_alert_two_button()
